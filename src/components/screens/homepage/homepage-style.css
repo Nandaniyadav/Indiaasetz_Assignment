@@ -1,3 +1,17 @@
 .screen{
-    
+    margin-top: 10px;
+}
+
+.sidebar-container {
+    height: 700px;
+    border-radius: 30px;
+background: #FFF;
+box-shadow: 6px 6px 36px 0px rgba(0, 0, 0, 0.06), -2px -4px 13px 0px rgba(255, 255, 255, 0.30), 4px 4px 47px 0px rgba(0, 0, 0, 0.04);
+}
+.dashbord-container {
+    height: 1000px;
+
+}
+.container {
+    margin-top: 30px;
 }
