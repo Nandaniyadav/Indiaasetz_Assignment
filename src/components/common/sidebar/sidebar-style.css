@@ -1,0 +1,17 @@
+.dashboard {
+    color: #a3b5c6;
+    font-size: 14px;
+    font-weight: '400';
+    word-wrap: 'break-word';
+    padding-left: 15px;
+}
+.dashboardNonIcons{
+    color: #a3b5c6;
+    font-size: 14px;
+    font-weight: '400';
+    word-wrap: 'break-word';
+    padding-left: 15px;
+    margin-left: 21px;
+    
+    
+}
