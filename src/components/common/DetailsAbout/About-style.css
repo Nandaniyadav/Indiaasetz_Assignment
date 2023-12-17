@@ -34,7 +34,7 @@
 /* style for grids */
 .divcontainer {
     margin-top: 20px;
-    border: 2px solid #bdd9f3;
+    border: 2px solid #dce9f6;
     border-radius: 5px;
     padding-bottom: 15px;
     box-sizing: border-box;
@@ -68,4 +68,32 @@
     font-weight: 400;
     word-wrap: break-word;
     margin-top: 15px;
+}
+
+/* company address style */
+.addressdiv {
+    height: 100%;
+    width: 100%;
+    margin-top: 23px;
+    border: 2px solid #dce9f6;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+
+input {
+    margin-left: 100px;
+    border: none;
+    color: rgba(10, 58, 103, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.companyAddress {
+    display: inline;
+    color: #0A3A67;
+    font-size: 19px;
+    font-weight: 500;
+    word-wrap: break-word;
 }

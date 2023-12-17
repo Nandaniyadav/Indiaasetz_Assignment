@@ -84,6 +84,11 @@ const About = () => {
 </Grid>
 </div>
 
+{/* company address */}
+<div className="addressdiv">
+<input placeholder="Address"/>
+<div className="companyAddress">12th Floor, C Wing, Mittal Tower, MG Road, Bangalore</div>
+</div>
     </div>
   );
 };
