@@ -40,12 +40,49 @@ const About = () => {
     <CardMedia/>
 </Card>
 {/* Create Grid */}
-<Grid container className="gridcontainer">
+<div className="divcontainer">
+<Grid container >
 <Grid xs={3} className="grids">Client Id</Grid>
-<Grid xs={3} className="grids">gvhjgvjh</Grid>
-<Grid xs={3} className="grids">gvhjgvjh</Grid>
-<Grid xs={3} className="grids">gvhjgvjh</Grid>
+<Grid xs={3} className="grids">Onboarded by</Grid>
+<Grid xs={3} className="grids">DOB</Grid>
+<Grid xs={3} className="grids">Gender</Grid>
 </Grid>
+
+<Grid container className="gridcontainer">
+<Grid xs={3} className="gridsline2style">IA-12345</Grid>
+<Grid xs={3} className="gridsline2style">Azeez</Grid>
+<Grid xs={3} className="gridsline2style">14.05.1985</Grid>
+<Grid xs={3} className="gridsline2style">Female</Grid>
+</Grid>
+
+<Grid container className="gridcontainer">
+<Grid xs={3} className="gridsline3">Contact</Grid>
+<Grid xs={3} className="gridsline3">Email</Grid>
+<Grid xs={3} className="gridsline3">Occupation</Grid>
+<Grid xs={3} className="gridsline3">Pin code</Grid>
+</Grid>
+
+<Grid container className="gridcontainer">
+<Grid xs={3} className="gridsline2style">+91 9999999999</Grid>
+<Grid xs={3} className="gridsline2style">xyz123@gmail.com</Grid>
+<Grid xs={3} className="gridsline2style">Business</Grid>
+<Grid xs={3} className="gridsline2style">560001</Grid>
+</Grid>
+
+<Grid container className="gridcontainer">
+<Grid xs={3} className="gridsline3"> City</Grid>
+<Grid xs={3} className="gridsline3">State</Grid>
+<Grid xs={3} className="gridsline3">Country</Grid>
+<Grid xs={3} className="gridsline3"> </Grid>
+</Grid>
+
+<Grid container className="gridcontainer">
+<Grid xs={3} className="gridsline2style">Bangalore</Grid>
+<Grid xs={3} className="gridsline2style">Karnataka</Grid>
+<Grid xs={3} className="gridsline2style">India</Grid>
+<Grid xs={3} className="gridsline2style"></Grid>
+</Grid>
+</div>
 
     </div>
   );
