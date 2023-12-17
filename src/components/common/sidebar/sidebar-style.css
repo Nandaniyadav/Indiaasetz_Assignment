@@ -15,3 +15,12 @@
     
     
 }
+.sidebar-container {
+    overflow-y: scroll;
+    line-height: 10px;
+    line-height-step: 10px;
+}
+
+.css-hyum1k-MuiToolbar-root {
+    min-height: 45px !important;
+}

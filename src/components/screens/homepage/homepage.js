@@ -4,10 +4,7 @@ import * as React from "react";
 import { useTheme } from "@mui/material/styles";
 import Card from "@mui/material/Card";
 import Sidebar from "../../common/sidebar/sidebar";
-import Navigation from "../../common/Navigationbar/Navigation";
-// import DataTable from "../../common/Dashboard/DataTable";
-
-
+import Dashboard from "../dashbord/Dashboard";
 
 const Homepage = () => {
   const theme = useTheme();
@@ -15,12 +12,13 @@ const Homepage = () => {
     <div className="screen">
       <Header />
       <div className="container">
-        <Card sx={{ display: "flex" }}>
+        <Card className="main-container" sx={{ display: "flex"}}>
+          <div className="sidebar-container">
           <Sidebar/>
-          <Navigation/>
-          {/* <DataTable/> */}
-        
-          <div className="dashbord-container"></div>
+          </div>
+          <div className="dashbord-container">
+          <Dashboard/>
+          </div>
         </Card>
       </div>
     </div>

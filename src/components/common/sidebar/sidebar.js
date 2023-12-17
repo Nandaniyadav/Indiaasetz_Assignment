@@ -21,11 +21,10 @@ const Sidebar = () => {
             sx={{
               display: "flex",
               flexDirection: "column",
-              border: "1px solid red",
             }}
             className="sidebar-container"
           >
-            <Toolbar>
+            <Toolbar sx={{height:'10px'}}>
             <GridViewIcon sx={{color:'#a3b5c6'}}/>
            <div className="dashboard">Dashboard</div>
             </Toolbar>
@@ -89,7 +88,6 @@ const Sidebar = () => {
             <Toolbar>
             <div className="dashboardNonIcons">Home Loan</div> 
             </Toolbar>
-          
           </Box>
   )
 }

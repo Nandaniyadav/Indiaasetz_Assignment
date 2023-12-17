@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    /* border: 1px solid red; */
+
 }
 
 .profile-image1 {
@@ -28,14 +28,23 @@
     height: 45px;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
+
 }
 
-
-.box-container {
-    /* padding-bottom: 0px !important; */
-    /* box-shadow: white !important; */
-    /* border: none !important; */
+.css-pl8gqh-MuiStack-root>:not(style):not(style) {
+    background-color: #0A3A67;
+    box-shadow: none !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    box-shadow: none !important;
+   
+}
+.css-1xpvmq8-MuiCardContent-root:last-child {
+    padding-bottom:0px !important;
 }
 
 .id-details {
