@@ -1,0 +1,77 @@
+.div02 {
+    height: 55px;
+    width: 55px;
+    border: 1px solid #0A3A67;
+    color: #0A3A67;
+    line-height: 50px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.div53 {
+    color: #0B3D6C;
+    font-size: 32px;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-left: 100px;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+}
+
+.pending {
+    color: #75013D;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 200px;
+
+}
+
+.networth {
+    color: rgba(10, 58, 103, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 200px;
+}
+
+.percentage {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #0B3D6C;
+    border-radius: 50%;
+    /* padding: 10px; */
+    padding-top: 10px;
+    padding-left: 9px;
+    box-sizing: border-box;
+    color: #75013D;
+    font-size: 16px;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-left: 100px;
+}
+
+.profilecomplication {
+    color: rgba(10, 58, 103, 0.60);
+    font-size: 14px;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-left: 10px;
+}
+
+.profile {
+    margin-left: 500px;
+}
+
+.profilename {
+    color: #0A3A67;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 600px;
+}

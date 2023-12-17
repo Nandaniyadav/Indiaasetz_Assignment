@@ -1,0 +1,29 @@
+.aboutcontainer {
+    border: 1px solid black;
+    min-height: 500px;
+}
+
+.aboutprofile {
+    margin: auto;
+}
+
+.profileName {
+    margin: auto;
+    margin-top: -5px;
+    color: #0A3A67;
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.aboutheading{
+    color: #0A3A67;
+    font-size: 25px;
+    font-weight: 400;
+    word-wrap: break-word ;
+}
+.about{
+    color: #0A3A67;
+font-size: 20px;
+font-weight: 500;
+word-wrap: break-word;
+}
