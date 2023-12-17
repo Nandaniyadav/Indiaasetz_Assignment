@@ -10,13 +10,17 @@ import { Headerbutton } from '../../button/header-button';
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { FaRegBell } from "react-icons/fa6";
 import { FaRegFileAlt } from "react-icons/fa";
-import { Toolbar, Typography } from '@mui/material';
+
+// import Navigation from '../Navigationbar/Navigation';
+// import DataTable from '../Dashboard/DataTable';
+
 
 
 
 
 export default function MediaCard() {
   return (
+    <>
     <div className='header-container'>
      <Card className='conatant'>
       <CardContent sx={{ display: 'flex', justifyContent:'space-between', padding:0}} className='box-container'>
@@ -49,6 +53,10 @@ export default function MediaCard() {
       </CardContent>
     </Card>
     </div>
-   
+    
+    {/* <Navigation/> */}
+    {/* <DataTable/> */}
+  
+   </>
   );
 }
