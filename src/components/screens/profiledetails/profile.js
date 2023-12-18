@@ -47,18 +47,18 @@ export default function Profile() {
             {" "}
             <h1>5.3Cr</h1>
           </div>
-          <Typography style={{ color: "#0A3A67" }}>Total Properties</Typography>
+          <Typography style={{ color: "#0A3A67" }}><span style={{color:'#75013D'}}>+Pending</span> Net worth</Typography>
         </div>
         <div className="sec-nav-box1">
-          <div className="number-div1" style={{ color: "#0A3A67" }}>
+          <div className="number-div1" style={{ color: "#0A3A67"}}>
             {" "}
-            <h1>56</h1>
+            <h1>65%</h1>
           </div>
-          <Typography style={{ color: "#0A3A67" }}>Total Properties</Typography>
+          <Typography style={{ color: "#0A3A67" }}>Profile completion Status</Typography>
         </div>
         <div className="sec-nav-box1">
           <Avatar style={{ width: 70, height: 70 }} />
-          <Typography style={{ color: "#0A3A67" }}>Total Properties</Typography>
+          <Typography style={{ color: "#0A3A67" }}>PRM <span style={{color:'Nalini'}}>Nalini</span></Typography>
         </div>
       </div>
       <br></br>
@@ -66,7 +66,7 @@ export default function Profile() {
 
       <div className="profile-section">
         <br></br>
-        <Avatar alt="Cb" style={{ width: 80, height: 80, margin: "auto" }} />
+        <Avatar src="\profilesImages\profileimg1.jpg" alt="Profile" style={{ width: 80, height: 80, margin: "auto" }} />
         <Typography
           className="profile-name"
           style={{ width: 180, margin: "auto" }}
@@ -101,53 +101,53 @@ export default function Profile() {
               <Typography className="typo-text-3">IA-12345 </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> Onboarded by</Typography>
+              <Typography className="typo-text-3">Azeez </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> DOB</Typography>
+              <Typography className="typo-text-3">14.05.1985 </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> Gender</Typography>
+              <Typography className="typo-text-3">Female </Typography>
             </div>
           </div>
           <br></br>
           <div className="status-bar-2">
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> Contact</Typography>
+              <Typography className="typo-text-3">+91 9999999999 </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> Email</Typography>
+              <Typography className="typo-text-3">xyz123@gmail.com </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> Occupation</Typography>
+              <Typography className="typo-text-3">Business </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> Pin code</Typography>
+              <Typography className="typo-text-3">560001 </Typography>
             </div>
           </div>
           <div className="status-bar-2">
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> City</Typography>
+              <Typography className="typo-text-3">Bangalore </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> State</Typography>
+              <Typography className="typo-text-3">Karnataka</Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> Country</Typography>
+              <Typography className="typo-text-3">India </Typography>
             </div>
             <div>
-              <Typography className="typo-text-2"> Client Id</Typography>
-              <Typography className="typo-text-3">IA-12345 </Typography>
+              <Typography className="typo-text-2"> </Typography>
+              <Typography className="typo-text-3"></Typography>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@ export default function Profile() {
 
         <div className="address-section">
           <Typography className="typo-text-2">Address</Typography>
-          <Typography className="typo-text-4">
+          <Typography className="typo-text-4" style={{color:'#0A3A67'}}>
             {" "}
             12th Floor, C Wing, Mittal Tower, MG Road, Bangalore{" "}
           </Typography>
@@ -184,28 +184,20 @@ export default function Profile() {
           <div className="details-section-2">
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2">Expected Loan(in Lakhs)</Typography>
+                <Typography className="typo-text-3">1,00,000</Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Net Income(per Month)</Typography>
+                <Typography className="typo-text-3">10,000 </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
-              </div>
-              <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Age(in Years)</Typography>
+                <Typography className="typo-text-3">1</Typography>
               </div>
             </div>
             <br></br>
             <div className="status-bar-2">
-              <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
-              </div>
               <div>
                 <Typography className="typo-text-2"> Client Id</Typography>
                 <Typography className="typo-text-3">IA-12345 </Typography>
