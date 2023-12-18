@@ -1,7 +1,5 @@
 import * as React from "react";
 import { Typography, Toolbar, Avatar } from "@mui/material";
-import BottomNavigation from "@mui/material/BottomNavigation";
-import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import "./profile-style.css";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import VerifiedOutlinedIcon from "@mui/icons-material/VerifiedOutlined";
@@ -346,16 +344,78 @@ export default function Profile() {
         </div>
       </div>
 
-
-
-      {/* Loan Details Page-2 for Edit Loan Details Section */}
+      {/*---- Loan Details Page-2 for Edit Loan Details Section -----*/}
 
       <div className="edit-loan-details">
         <br></br>
         <Typography className="edit-loan-text">Loan Details</Typography>
         <div className="edit-loan-details-section">
           <div className="edit-loan-details-section-2">
-            <div></div>
+            <div className="edit-loan-status-bar-2">
+              <div>
+                <Typography className="edit-loan-typo-text-2">
+                  Expected Loan(in Lakhs)
+                </Typography>
+                <Typography className="edit-loan-typo-text-3">
+                  1,00,000
+                </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2">
+                  {" "}
+                  Net Income(per Month)
+                </Typography>
+                <Typography className="edit-loan-typo-text-3">
+                  10,000{" "}
+                </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2">
+                  {" "}
+                  Age(in Years)
+                </Typography>
+                <Typography className="edit-loan-typo-text-3">1</Typography>
+              </div>
+            </div>
+
+            <div className="edit-loan-status-bar-2">
+              <div>
+                <Typography className="edit-loan-typo-text-status">
+                  Employment Status
+                </Typography>
+                <Typography className="edit-loan-typo-text-3">
+                  <select name="job" id="edit-loan-detail-time">
+                    <option value="fulltime">Full-Time</option>
+                    <option value="parttime">Part-Time</option>
+                  </select>
+                </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-status">
+                  {" "} Company Name
+                </Typography>
+                <Typography className="edit-loan-typo-text-3">
+                ABC{" "}
+                </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-status">
+                  {" "}
+                  Loan Status
+                </Typography>
+                <Typography className="edit-loan-typo-text-3">
+                <select name="job" id="edit-loan-detail-time">
+                    <option value="loanexits">Loan Exits</option>
+                    <option value="educationloan">Education Loan</option>
+                  </select>
+                </Typography>
+              </div>
+            </div>
+            <div className="edit-loan-button-div">
+                  <Typography >
+                  <button className="edit-loan-button">Save</button>
+                  </Typography>
+                </div>
           </div>
         </div>
       </div>
