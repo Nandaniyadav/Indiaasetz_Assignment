@@ -344,7 +344,7 @@ export default function Profile() {
         </div>
       </div>
 
-      {/*---- Loan Details Page-2 for Edit Loan Details Section -----*/}
+      {/*--------------- Loan Details Page-2 for Edit Loan Details Section ---------------------*/}
 
       <div className="edit-loan-details">
         <br></br>
@@ -392,11 +392,10 @@ export default function Profile() {
               </div>
               <div>
                 <Typography className="edit-loan-typo-text-status">
-                  {" "} Company Name
+                  {" "}
+                  Company Name
                 </Typography>
-                <Typography className="edit-loan-typo-text-3">
-                ABC{" "}
-                </Typography>
+                <Typography className="edit-loan-typo-text-3">ABC </Typography>
               </div>
               <div>
                 <Typography className="edit-loan-typo-text-status">
@@ -404,7 +403,7 @@ export default function Profile() {
                   Loan Status
                 </Typography>
                 <Typography className="edit-loan-typo-text-3">
-                <select name="job" id="edit-loan-detail-time">
+                  <select name="job" id="edit-loan-detail-time">
                     <option value="loanexits">Loan Exits</option>
                     <option value="educationloan">Education Loan</option>
                   </select>
@@ -412,12 +411,148 @@ export default function Profile() {
               </div>
             </div>
             <div className="edit-loan-button-div">
-                  <Typography >
-                  <button className="edit-loan-button">Save</button>
-                  </Typography>
-                </div>
+              <Typography>
+                <button className="edit-loan-button">Save</button>
+              </Typography>
+            </div>
           </div>
+          {/*--- Edit loan details section-2 (Existing Loan Details)  ---*/}
+          <div className="edit-loan-details-section-3">
+            <Typography
+              style={{ marginLeft: 45 }}
+              className="edit-loan-typo-text-exiting"
+            >
+              {" "}
+              Existing Loan Details
+            </Typography>
+            <div className="edit-loan-status-bar-2">
+              <div>
+                <Typography className="edit-loan-typo-text-2">
+                  {" "}
+                  Loan Type
+                </Typography>
+                <Typography className="edit-loan-typo-text-4 ">
+                  Personal Loan{" "}
+                </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2"> Bank</Typography>
+                <Typography className="edit-loan-typo-text-4 ">HDFC</Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2">
+                  {" "}
+                  Outstanding Principal
+                </Typography>
+                <Typography className="edit-loan-typo-text-4 ">
+                  20,00,000{" "}
+                </Typography>
+              </div>
+            </div>
+            <br></br>
+            <div className="edit-loan-status-bar-2">
+              <div>
+                <Typography className="edit-loan-typo-text-2">
+                  Monthly EMI
+                </Typography>
+                <Typography className="edit-loan-typo-text-4 ">
+                  10,000
+                </Typography>
+              </div>
+              <div>
+                <Typography
+                  sx={{ marginLeft: "70px" }}
+                  className="edit-loan-typo-text-2"
+                >
+                  {" "}
+                  Pending EMI(in Months)
+                </Typography>
+                <Typography
+                  sx={{ marginLeft: "70px" }}
+                  className="edit-loan-typo-text-4 "
+                >
+                  15
+                </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2">
+                  {" "}
+                  Rate of Interest(%)
+                </Typography>
+                <Typography className="edit-loan-typo-text-4 ">10 </Typography>
+              </div>
+            </div>
+
+            <br></br>
+            <br></br>
+          </div>
+          {/* ---Loan Consultation Call Details for edit loan details---*/}
+          <div className="edit-loan-details-section-last">
+            <Typography style={{ marginLeft: 45 }} className="edit-loan-typo-text-3">
+              {" "}
+              Loan Consultation Call Details
+            </Typography>
+            <div className="edit-loan-status-bar-2">
+              <div>
+                <Typography className="edit-loan-typo-text-2"> Date</Typography>
+                <Typography className="edit-loan-typo-text-3 ">20/1/2024</Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2"> Timings</Typography>
+                <Typography className="edit-loan-typo-text-3 ">4:00 PM </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2"> Call Status</Typography>
+                <Typography className="edit-loan-typo-text-3 ">Completed</Typography>
+              </div>
+            </div>
+            <br></br>
+
+            <div className="edit-loan-address-section-3 ">
+              <Typography className="edit-loan-typo-text-2">Remarks</Typography>
+              <Typography className="typo-text-4"> Client was busy.</Typography>
+            </div>
+            <br></br>
+            <hr
+              style={{
+                width: "97%",
+                margin: "auto",
+                borderColor: "#a3b5c6",
+                borderWidth: ".02px",
+              }}
+            ></hr>
+            <div className="edit-loan-status-bar-2">
+              <div>
+                <Typography className="edit-loan-typo-text-2"> Date</Typography>
+                <Typography className="edit-loan-typo-text-3 ">20/1/2024 </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2"> Timings</Typography>
+                <Typography className="edit-loan-typo-text-3 ">4:00 PM </Typography>
+              </div>
+              <div>
+                <Typography className="edit-loan-typo-text-2"> Call Status</Typography>
+                <Typography sx={{border:'1px solid black'}} className="edit-loan-typo-text-3">
+                  <select name="job" id="edit-loan-detail-time">
+                    <option value="pending">Pending</option>
+                    <option value="recieve">recieve</option>
+                  </select>
+                </Typography>
+              </div>
+            </div>
+
+            <br></br>
+            <div className="edit-loan-address-section-3 ">
+              <Typography className="edit-loan-typo-text-2">Remarks</Typography>
+              <Typography className="edit-loan-typo-text-4 ">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
+              </Typography>
+            </div>
+          </div>
+          
         </div>
+        
       </div>
     </div>
   );
