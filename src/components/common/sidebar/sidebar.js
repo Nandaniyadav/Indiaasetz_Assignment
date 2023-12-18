@@ -88,6 +88,21 @@ const Sidebar = () => {
             <Toolbar>
             <div className="dashboardNonIcons">Home Loan</div> 
             </Toolbar>
+            <Toolbar>
+              <Brightness4OutlinedIcon sx={{color:'#a3b5c6'}}/>
+              <div className="dashboard">MAGIK</div> 
+            </Toolbar>
+            <Toolbar>
+              <AssuredWorkloadOutlinedIcon sx={{color:'#a3b5c6'}}/>
+              <div className="dashboard">ST</div> 
+              <ArrowDropDownOutlinedIcon sx={{color:'#a3b5c6'}}/>
+            </Toolbar>
+            <Toolbar>
+            <div className="dashboardNonIcons" >ST Clients</div> 
+            </Toolbar>
+            <Toolbar>
+            <div className="dashboardNonIcons">Home Loan</div> 
+            </Toolbar>
           </Box>
   )
 }
