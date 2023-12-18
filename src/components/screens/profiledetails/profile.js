@@ -199,16 +199,16 @@ export default function Profile() {
             <br></br>
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2">Employment Status</Typography>
+                <Typography className="typo-text-3">Full-Time </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Company Name</Typography>
+                <Typography className="typo-text-3">ABC </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Loan Status</Typography>
+                <Typography className="typo-text-3">Other loans </Typography>
               </div>
             </div>
           </div>
@@ -222,39 +222,31 @@ export default function Profile() {
             </Typography>
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Loan Type</Typography>
+                <Typography className="typo-text-3">Personal Loan </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Bank</Typography>
+                <Typography className="typo-text-3">HDFC</Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
-              </div>
-              <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Outstanding Principal</Typography>
+                <Typography className="typo-text-3">20,00,000 </Typography>
               </div>
             </div>
             <br></br>
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Monthly EMI </Typography>
+                <Typography className="typo-text-3">10,000 </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Pending EMI(in Months)</Typography>
+                <Typography className="typo-text-3">15 </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
-              </div>
-              <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Rate of Interest(%)</Typography>
+                <Typography className="typo-text-3">10 </Typography>
               </div>
             </div>
 
@@ -271,20 +263,16 @@ export default function Profile() {
             </Typography>
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Date</Typography>
+                <Typography className="typo-text-3">20/1/2024</Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Timings</Typography>
+                <Typography className="typo-text-3">4:00 PM </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
-              </div>
-              <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Call Status</Typography>
+                <Typography className="typo-text-3">Completed</Typography>
               </div>
             </div>
             <br></br>
@@ -304,20 +292,16 @@ export default function Profile() {
             ></hr>
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Date</Typography>
+                <Typography className="typo-text-3">20/1/2024 </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Timings</Typography>
+                <Typography className="typo-text-3">4:00 PM </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
-              </div>
-              <div>
-                <Typography className="typo-text-2"> Client Id</Typography>
-                <Typography className="typo-text-3">IA-12345 </Typography>
+                <Typography className="typo-text-2"> Call Status</Typography>
+                <Typography className="typo-text-3">Pending </Typography>
               </div>
             </div>
 
