@@ -47,18 +47,24 @@ export default function Profile() {
             {" "}
             <h1>5.3Cr</h1>
           </div>
-          <Typography style={{ color: "#0A3A67" }}><span style={{color:'#75013D'}}>+Pending</span> Net worth</Typography>
+          <Typography style={{ color: "#0A3A67" }}>
+            <span style={{ color: "#75013D" }}>+Pending</span> Net worth
+          </Typography>
         </div>
         <div className="sec-nav-box1">
-          <div className="number-div1" style={{ color: "#0A3A67"}}>
+          <div className="number-div1" style={{ color: "#0A3A67" }}>
             {" "}
             <h1>65%</h1>
           </div>
-          <Typography style={{ color: "#0A3A67" }}>Profile completion Status</Typography>
+          <Typography style={{ color: "#0A3A67" }}>
+            Profile completion Status
+          </Typography>
         </div>
         <div className="sec-nav-box1">
           <Avatar style={{ width: 70, height: 70 }} />
-          <Typography style={{ color: "#0A3A67" }}>PRM <span style={{color:'Nalini'}}>Nalini</span></Typography>
+          <Typography style={{ color: "#0A3A67" }}>
+            PRM <span style={{ color: "Nalini" }}>Nalini</span>
+          </Typography>
         </div>
       </div>
       <br></br>
@@ -66,7 +72,11 @@ export default function Profile() {
 
       <div className="profile-section">
         <br></br>
-        <Avatar src="\profilesImages\profileimg1.jpg" alt="Profile" style={{ width: 80, height: 80, margin: "auto" }} />
+        <Avatar
+          src="\profilesImages\profileimg1.jpg"
+          alt="Profile"
+          style={{ width: 80, height: 80, margin: "auto" }}
+        />
         <Typography
           className="profile-name"
           style={{ width: 180, margin: "auto" }}
@@ -156,7 +166,7 @@ export default function Profile() {
 
         <div className="address-section">
           <Typography className="typo-text-2">Address</Typography>
-          <Typography className="typo-text-4" style={{color:'#0A3A67'}}>
+          <Typography className="typo-text-4" style={{ color: "#0A3A67" }}>
             {" "}
             12th Floor, C Wing, Mittal Tower, MG Road, Bangalore{" "}
           </Typography>
@@ -176,6 +186,7 @@ export default function Profile() {
 
       <br></br>
 
+      {/* Loan Details Page-1 Section */}
       <div className="profile-section-2">
         <br></br>
         <Typography className="typo-text">Loan Details</Typography>
@@ -184,11 +195,16 @@ export default function Profile() {
           <div className="details-section-2">
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2">Expected Loan(in Lakhs)</Typography>
+                <Typography className="typo-text-2">
+                  Expected Loan(in Lakhs)
+                </Typography>
                 <Typography className="typo-text-3">1,00,000</Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Net Income(per Month)</Typography>
+                <Typography className="typo-text-2">
+                  {" "}
+                  Net Income(per Month)
+                </Typography>
                 <Typography className="typo-text-3">10,000 </Typography>
               </div>
               <div>
@@ -199,7 +215,9 @@ export default function Profile() {
             <br></br>
             <div className="status-bar-2">
               <div>
-                <Typography className="typo-text-2">Employment Status</Typography>
+                <Typography className="typo-text-2">
+                  Employment Status
+                </Typography>
                 <Typography className="typo-text-3">Full-Time </Typography>
               </div>
               <div>
@@ -230,7 +248,10 @@ export default function Profile() {
                 <Typography className="typo-text-3">HDFC</Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Outstanding Principal</Typography>
+                <Typography className="typo-text-2">
+                  {" "}
+                  Outstanding Principal
+                </Typography>
                 <Typography className="typo-text-3">20,00,000 </Typography>
               </div>
             </div>
@@ -241,11 +262,19 @@ export default function Profile() {
                 <Typography className="typo-text-3">10,000 </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Pending EMI(in Months)</Typography>
-                <Typography className="typo-text-3">15 </Typography>
+                <Typography sx={{ marginLeft: "70px" }} className="typo-text-2">
+                  {" "}
+                  Pending EMI(in Months)
+                </Typography>
+                <Typography sx={{ marginLeft: "70px" }} className="typo-text-3">
+                  15{" "}
+                </Typography>
               </div>
               <div>
-                <Typography className="typo-text-2"> Rate of Interest(%)</Typography>
+                <Typography className="typo-text-2">
+                  {" "}
+                  Rate of Interest(%)
+                </Typography>
                 <Typography className="typo-text-3">10 </Typography>
               </div>
             </div>
@@ -313,6 +342,20 @@ export default function Profile() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
               </Typography>
             </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      {/* Loan Details Page-2 for Edit Loan Details Section */}
+
+      <div className="edit-loan-details">
+        <br></br>
+        <Typography className="edit-loan-text">Loan Details</Typography>
+        <div className="edit-loan-details-section">
+          <div className="edit-loan-details-section-2">
+            <div></div>
           </div>
         </div>
       </div>
