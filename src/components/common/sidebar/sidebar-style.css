@@ -17,7 +17,7 @@
 }
 .sidebar-container {
     height: 910px;
-    overflow-y: scroll;
+    /* overflow: scroll; */
     line-height: 10px;
     line-height-step: 10px;
 }

@@ -16,17 +16,17 @@ function createData(name, calories, fat, carbs, protein, main, last) {
 }
 
 const rows = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0, 4325,2355),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3,4325,2355),
-  createData('Eclair', 262, 16.0, 24, 6.0, 4325,2355),
-  createData('Cupcake', 305, 3.7, 67, 4.3, 4325,2355),
-  createData('Gingerbread', 356, 16.0, 49, 3.9, 4325,2355),
-  createData('main', 305, 3.7, 67, 4.3, 4325,2355),
-  createData('last', 356, 16.0, 49, 3.9, 4325,2355),
-  createData('main', 305, 3.7, 67, 4.3, 4325,2355),
-  createData('last', 356, 16.0, 49, 3.9, 4325,2355),
-  createData('main', 305, 3.7, 67, 4.3, 4325,2355),
-  createData('last', 356, 16.0, 49, 3.9, 4325,2355),
+  createData('Frozen yoghurt', Cameron, abcgmail.com, 8888888888, LAP, Bangalore,Nalini),
+  createData('Ice cream sandwich', Cameron, abcgmail.com, 8888888888, Home_Loan,Bangalore,Nalini),
+  createData('Eclair', Cameron, abcgmail.com, 8888888888, LAP, Bangalore,Nalini),
+  createData('Cupcake', Cameron, abcgmail.com, 8888888888, LAP, Bangalore,Nalini),
+  createData('Gingerbread', Cameron, abcgmail.com, 8888888888, LAP, Bangalore,Nalini),
+  createData('main', Cameron, abcgmail.com, 8888888888, Home_Loan, Bangalore,Nalini),
+  createData('last', Cameron, abcgmail.com, 8888888888, LAP, Bangalore,Nalini),
+  createData('main', Cameron, abcgmail.com, 8888888888, Home_Loan, Bangalore,Nalini),
+  createData('last', Cameron, abcgmail.com, 8888888888, LAP, Bangalore,Nalini),
+  createData('main', Cameron, abcgmail.com, 8888888888, LAP, Bangalore,Nalini),
+  createData('last', Cameron, abcgmail.com, 8888888888, Home_Loan, Bangalore,Nalini),
 ];
 
 export default function Datatable() {
@@ -58,12 +58,12 @@ export default function Datatable() {
               <TableCell style={{fontSize:5}} component="th" scope="row">
               <Avatar />
               </TableCell>
-              <TableCell align="right">{row.calories}</TableCell>
-              <TableCell align="right">{row.fat}</TableCell>
-              <TableCell align="right">{row.carbs}</TableCell>
-              <TableCell align="right">{row.protein}</TableCell>
-              <TableCell align="right">{row.main}</TableCell>
-              <TableCell align="right">{row.last}</TableCell>
+              <TableCell align="right">{row.name}</TableCell>
+              <TableCell align="right">{row.email}</TableCell>
+              <TableCell align="right">{row.contact}</TableCell>
+              <TableCell align="right">{row.tonetype}</TableCell>
+              <TableCell align="right">{row.branch}</TableCell>
+              <TableCell align="right">{row.prm}</TableCell>
             </TableRow>
           ))}
         </TableBody>
